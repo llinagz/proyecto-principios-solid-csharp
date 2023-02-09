@@ -6,6 +6,8 @@ namespace SingleResponsability
         public string Fullname { get; set; }
         public List<double> Grades { get; set; }
 
+        //Dos constructores, uno que recibe parametros y otro que no
+
         public Student()
         {
             this.Fullname = string.Empty;
